@@ -1,0 +1,2 @@
+./startup: line 41: 20157 Killed                  ../src/rom $port >$logfile 2>&1
+./startup: line 41: 23536 Killed                  ../src/rom $port >$logfile 2>&1

@@ -2101,84 +2101,84 @@ typedef enum
 	#define TEMP_FILE			"../player/romtmp"
 	#define EXE_FILE			"../debug/PatternsEnd.exe"
 
-	#define WEATHER_FILE        "../data/weather.dat"
-	#define CLAN_FILE			"../data/clans.txt"
-	#define CABAL_FILE			"../data/cabals.txt"
-	#define GRAVE_FILE			"../data/graves.txt"
-	#define LAIR_FILE			"../data/lairs.txt"
-	#define ROSTER_FILE			"../data/roster.txt"
-	#define GALLERY_FILE		"../data/gallery.txt"
- 	#define STORYLINE_FILE		"../data/storylines.txt"
-	#define EVENT_FILE			"../data/events.txt"
-	#define STORY_FILE			"../data/stories.txt"
-	#define PETITION_FILE		"../data/petitions.txt"
-        #define AI_IN_FILE          "../data/ai_in.csv"
-        #define AI_OUT_FILE         "../data/ai_out.csv"
-	#define POPS_FILE		"../data/pops.csv"
-        #define IOPS_FILE               "../data/iops.csv"
+	#define WEATHER_FILE        "data/weather.dat"
+	#define CLAN_FILE			"data/clans.txt"
+	#define CABAL_FILE			"data/cabals.txt"
+	#define GRAVE_FILE			"data/graves.txt"
+	#define LAIR_FILE			"data/lairs.txt"
+	#define ROSTER_FILE			"data/roster.txt"
+	#define GALLERY_FILE		"data/gallery.txt"
+ 	#define STORYLINE_FILE		"data/storylines.txt"
+	#define EVENT_FILE			"data/events.txt"
+	#define STORY_FILE			"data/stories.txt"
+	#define PETITION_FILE		"data/petitions.txt"
+        #define AI_IN_FILE          "data/ai_in.csv"
+        #define AI_OUT_FILE         "data/ai_out.csv"
+	#define POPS_FILE		"data/pops.csv"
+        #define IOPS_FILE               "data/iops.csv"
 
-        #define AI_SUM_IN_FILE          "../data/ai_sum_in.csv"
-        #define AI_SUM_OUT_FILE         "../data/ai_sum_out.csv"
-
-
-
-	#define LOCATION_FILE		"../data/locations.txt"
-   	#define GATEWAY_FILE		"../data/gateways.txt"
-	#define PLOT_FILE			"../data/plots/txt"
-	#define STORYIDEA_FILE		"../data/storyideas.txt"
-	#define RESEARCH_FILE		"../data/research.txt"
-	#define ENCOUNTER_FILE		"../data/encounters.txt"
-	#define PATROL_FILE			"../data/patrols.txt"
-	#define GROUPTEXT_FILE 		"../data/grouptexts.txt"
-    #define TEXTHISTORY_FILE    "../data/texthistories.txt"
-
-    #define MATCH_FILE    "../data/matches.txt"
-	#define PROFILE_FILE     "../data/profiles.txt"
-	#define CHATROOM_FILE    "../data/chatrooms.txt"
+        #define AI_SUM_IN_FILE          "data/ai_sum_in.csv"
+        #define AI_SUM_OUT_FILE         "data/ai_sum_out.csv"
 
 
 
-	#define ANNIVERSARY_FILE 	"../data/anniversaries.txt"
-	#define DECREE_FILE			"../data/decrees.txt"
+	#define LOCATION_FILE		"data/locations.txt"
+   	#define GATEWAY_FILE		"data/gateways.txt"
+	#define PLOT_FILE			"data/plots/txt"
+	#define STORYIDEA_FILE		"data/storyideas.txt"
+	#define RESEARCH_FILE		"data/research.txt"
+	#define ENCOUNTER_FILE		"data/encounters.txt"
+	#define PATROL_FILE			"data/patrols.txt"
+	#define GROUPTEXT_FILE 		"data/grouptexts.txt"
+    #define TEXTHISTORY_FILE    "data/texthistories.txt"
+
+    #define MATCH_FILE    "data/matches.txt"
+	#define PROFILE_FILE     "data/profiles.txt"
+	#define CHATROOM_FILE    "data/chatrooms.txt"
+
+
+
+	#define ANNIVERSARY_FILE 	"data/anniversaries.txt"
+	#define DECREE_FILE			"data/decrees.txt"
 	
-	#define NEWS_FILE			"../data/news.txt"
-	#define GATHERING_FILE		"../data/gatherings.txt"
- 	#define HOUSE_FILE			"../data/houses.txt"
-	#define PLAYERROOM_FILE		"../data/playerrooms.txt"
-	#define RENT_FILE			"../data/rent.txt"
-	#define CONTAINER_FILE		"../data/container.txt"
-	#define DORMS_FILE		"../data/dorms.txt"
-	#define MARKET_FILE			"../data/market.txt"
-	#define OPERATION_FILE		"../data/operations.txt"
-	#define SKILL_FILE			"../data/skill.txt"
-	#define WEAVE_FILE			"../data/weave.txt"
-	#define FORM_FILE			"../data/form.txt"
-	#define XML_SKILL_FILE		"../data/skill.xml"
-	#define XML_WEAVE_FILE		"../data/weave.xml"
-	#define XML_FORM_FILE		"../data/form.xml"
+	#define NEWS_FILE			"data/news.txt"
+	#define GATHERING_FILE		"data/gatherings.txt"
+ 	#define HOUSE_FILE			"data/houses.txt"
+	#define PLAYERROOM_FILE		"data/playerrooms.txt"
+	#define RENT_FILE			"data/rent.txt"
+	#define CONTAINER_FILE		"data/container.txt"
+	#define DORMS_FILE		"data/dorms.txt"
+	#define MARKET_FILE			"data/market.txt"
+	#define OPERATION_FILE		"data/operations.txt"
+	#define SKILL_FILE			"data/skill.txt"
+	#define WEAVE_FILE			"data/weave.txt"
+	#define FORM_FILE			"data/form.txt"
+	#define XML_SKILL_FILE		"data/skill.xml"
+	#define XML_WEAVE_FILE		"data/weave.xml"
+	#define XML_FORM_FILE		"data/form.xml"
 
-	#define MAP_DIR 		    "../data/vmaps/"
+	#define MAP_DIR 		    "data/vmaps/"
 
 	#define RESOLVE_FILE	    "../src/resolve"
-	#define RACE_FILE		    "../data/races.txt"  
-	#define SUBRACE_FILE   	    "../data/subraces.txt"  
-	#define COMMAND_FILE	    "../data/commands.txt"
-	#define LOCATION_FILE	    "../data/locations.txt"
-    #define GATEWAY_FILE	    "../data/gateways.txt"
+	#define RACE_FILE		    "data/races.txt"  
+	#define SUBRACE_FILE   	    "data/subraces.txt"  
+	#define COMMAND_FILE	    "data/commands.dat"
+	#define LOCATION_FILE	    "data/locations.txt"
+    #define GATEWAY_FILE	    "data/gateways.txt"
 
-	#define CHEST_DIR		    "../data/chests/"
-	#define GUILD_DIR		    "../data/guild/"        /* Has all the guild info.*/
-	#define VESSEL_DIR		    "../data/vessel/"        /* Has all the guild info.*/
-	#define PORT_DIR		    "../data/port/"        /* Has all the guild info.*/
+	#define CHEST_DIR		    "data/chests/"
+	#define GUILD_DIR		    "data/guild/"        /* Has all the guild info.*/
+	#define VESSEL_DIR		    "data/vessel/"        /* Has all the guild info.*/
+	#define PORT_DIR		    "data/port/"        /* Has all the guild info.*/
 	    
-	#define CLUB_FILE		    "../data/clubs.txt"
+	#define CLUB_FILE		    "data/clubs.txt"
 	#define CITY_DIR		    "../city/"      	/* Has all the city info */
 
-	#define SYSTEM_DIR	 	    "../data/"
-	#define COUNTRY_DIR     	"../data/country/"      /* Directory for Countries */
+	#define SYSTEM_DIR	 	    "data/"
+	#define COUNTRY_DIR     	"data/country/"      /* Directory for Countries */
 
-	#define QUOTE_DIR		    "../data/quotes/"	/* Dir for quote files*/
-	#define CORPSE_DIR		    "../data/corpses/"	/* where all the corpses save on crash */
+	#define QUOTE_DIR		    "data/quotes/"	/* Dir for quote files*/
+	#define CORPSE_DIR		    "data/corpses/"	/* where all the corpses save on crash */
 	#define AREA_LIST       	"../area/area.lst"      /* List of areas*/
 
 	#define REMORT_DIR          "../player/remort/"     /* backup dir for remorters */
@@ -2189,90 +2189,90 @@ typedef enum
 	
 	#define LAST_COMMAND	    "../log/lastcomm.txt"
 
-	#define NOTES_FILE          "../data/notes/notes.dat"		/* For 'notes'*/
-	#define NOTEBOARD_FILE      "../data/notes/noteboards.dat"	/* For 'notes'*/
-	#define NOTEGROUP_FILE	    "../data/notes/groups.dat"		/* For 'notes'*/
+	#define NOTES_FILE          "data/notes/notes.dat"		/* For 'notes'*/
+	#define NOTEBOARD_FILE      "data/notes/noteboards.dat"	/* For 'notes'*/
+	#define NOTEGROUP_FILE	    "data/notes/groups.dat"		/* For 'notes'*/
 
-	#define LOCATION_FILE	    "../data/locations.txt"
-    #define GATEWAY_FILE		"../data/gateways.txt"
+	#define LOCATION_FILE	    "data/locations.txt"
+    #define GATEWAY_FILE		"data/gateways.txt"
 #endif
 
 //#define DEV_PORT
 
 #if defined(unix)
 #ifndef DEV_PORT
-    #define WEATHER_FILE        "../data/weather.dat"
-    #define SKILL_FILE		    "../data/skill.txt"
-    #define CLAN_FILE		    "../data/clans.txt"
-    #define CABAL_FILE		    "../data/cabals.txt"
-    #define GRAVE_FILE		    "../data/graves.txt"
-    #define LAIR_FILE		    "../data/lairs.txt"
-    #define ROSTER_FILE		    "../data/roster.txt"
-    #define GALLERY_FILE        "../data/gallery.txt"
-    #define STORYLINE_FILE      "../data/storylines.txt"
-    #define EVENT_FILE		    "../data/events.txt"
-    #define STORY_FILE		    "../data/stories.txt"
-    #define PETITION_FILE	    "../data/petitions.txt"
-    #define AI_IN_FILE          "../data/ai_in.csv"
-    #define AI_OUT_FILE         "../data/ai_out.csv"
-    #define AI_SUM_IN_FILE          "../data/ai_sum_in.csv"
-    #define AI_SUM_OUT_FILE         "../data/ai_sum_out.csv"
+    #define WEATHER_FILE        "data/weather.dat"
+    #define SKILL_FILE		    "data/skill.txt"
+    #define CLAN_FILE		    "data/clans.txt"
+    #define CABAL_FILE		    "data/cabals.txt"
+    #define GRAVE_FILE		    "data/graves.txt"
+    #define LAIR_FILE		    "data/lairs.txt"
+    #define ROSTER_FILE		    "data/roster.txt"
+    #define GALLERY_FILE        "data/gallery.txt"
+    #define STORYLINE_FILE      "data/storylines.txt"
+    #define EVENT_FILE		    "data/events.txt"
+    #define STORY_FILE		    "data/stories.txt"
+    #define PETITION_FILE	    "data/petitions.txt"
+    #define AI_IN_FILE          "data/ai_in.csv"
+    #define AI_OUT_FILE         "data/ai_out.csv"
+    #define AI_SUM_IN_FILE          "data/ai_sum_in.csv"
+    #define AI_SUM_OUT_FILE         "data/ai_sum_out.csv"
 
-    #define POPS_FILE               "../data/pops.csv"
-    #define IOPS_FILE               "../data/iops.csv"
+    #define POPS_FILE               "data/pops.csv"
+    #define IOPS_FILE               "data/iops.csv"
 
 
-    #define LOCATION_FILE	    "../data/locations.txt"
-    #define GATEWAY_FILE	    "../data/gateways.txt"
-    #define PLOT_FILE		    "../data/plots.txt"
-    #define STORYIDEA_FILE	    "../data/storyideas.txt"
-    #define RESEARCH_FILE           "../data/research.txt"
-    #define ENCOUNTER_FILE          "../data/encounters.txt"
-    #define PATROL_FILE		    "../data/patrols.txt"
-    #define GROUPTEXT_FILE 	    "../data/grouptexts.txt"
-    #define TEXTHISTORY_FILE        "../data/texthistories.txt"
-    #define MATCH_FILE              "../data/matches.txt"
-    #define PROFILE_FILE            "../data/profiles.txt"
-    #define CHATROOM_FILE           "../data/chatrooms.txt"
+    #define LOCATION_FILE	    "data/locations.txt"
+    #define GATEWAY_FILE	    "data/gateways.txt"
+    #define PLOT_FILE		    "data/plots.txt"
+    #define STORYIDEA_FILE	    "data/storyideas.txt"
+    #define RESEARCH_FILE           "data/research.txt"
+    #define ENCOUNTER_FILE          "data/encounters.txt"
+    #define PATROL_FILE		    "data/patrols.txt"
+    #define GROUPTEXT_FILE 	    "data/grouptexts.txt"
+    #define TEXTHISTORY_FILE        "data/texthistories.txt"
+    #define MATCH_FILE              "data/matches.txt"
+    #define PROFILE_FILE            "data/profiles.txt"
+    #define CHATROOM_FILE           "data/chatrooms.txt"
 
-    #define ANNIVERSARY_FILE        "../data/anniversaries.txt"
-    #define DECREE_FILE		    "../data/decrees.txt"
+    #define ANNIVERSARY_FILE        "data/anniversaries.txt"
+    #define DECREE_FILE		    "data/decrees.txt"
 
-    #define NEWS_FILE               "../data/news.txt"
-    #define RENT_FILE		    "../data/rent.txt"
-    #define CONTAINER_FILE	    "../data/container.txt"
-    #define DORMS_FILE	            "../data/dorms.txt"
+    #define NEWS_FILE               "data/news.txt"
+    #define RENT_FILE		    "data/rent.txt"
+    #define CONTAINER_FILE	    "data/container.txt"
+    #define DORMS_FILE	            "data/dorms.txt"
     #define MAX_DORMROOMS           20
-    #define MARKET_FILE		    "../data/market.txt"
-    #define OPERATION_FILE	    "../data/operations.txt"
+    #define MARKET_FILE		    "data/market.txt"
+    #define OPERATION_FILE	    "data/operations.txt"
 
-    #define GATHERING_FILE	    "../data/gatherings.txt"
-    #define WEAVE_FILE		    "../data/weave.txt"
-    #define FORM_FILE		    "../data/form.txt"
-    #define XML_SKILL_FILE	    "../data/skill.xml"
-    #define XML_WEAVE_FILE	    "../data/weave.xml"
-    #define XML_FORM_FILE	    "../data/form.xml"
+    #define GATHERING_FILE	    "data/gatherings.txt"
+    #define WEAVE_FILE		    "data/weave.txt"
+    #define FORM_FILE		    "data/form.txt"
+    #define XML_SKILL_FILE	    "data/skill.xml"
+    #define XML_WEAVE_FILE	    "data/weave.xml"
+    #define XML_FORM_FILE	    "data/form.xml"
 
-    #define MAP_DIR 		    "../data/vmaps/"
+    #define MAP_DIR 		    "data/vmaps/"
 
     #define RESOLVE_FILE	    "../src/resolve"
-    #define RACE_FILE		    "../data/races.txt"  
-    #define SUBRACE_FILE   	    "../data/subraces.txt"  
-    #define COMMAND_FILE	    "../data/commands.txt"
+    #define RACE_FILE		    "data/races.txt"  
+    #define SUBRACE_FILE   	    "data/subraces.txt"  
+    #define COMMAND_FILE	    "data/commands.dat"
 
-    #define CHEST_DIR		    "../data/chests/"
-    #define GUILD_DIR		    "../data/guild/"        /* Has all the guild info.*/
-    #define VESSEL_DIR		    "../data/vessel/"        /* Has all the guild info.*/
-    #define PORT_DIR		    "../data/port/"        /* Has all the guild info.*/
+    #define CHEST_DIR		    "data/chests/"
+    #define GUILD_DIR		    "data/guild/"        /* Has all the guild info.*/
+    #define VESSEL_DIR		    "data/vessel/"        /* Has all the guild info.*/
+    #define PORT_DIR		    "data/port/"        /* Has all the guild info.*/
     
-    #define CLUB_FILE		    "../data/clubs.txt"
+    #define CLUB_FILE		    "data/clubs.txt"
     #define CITY_DIR		    "../city/"      	/* Has all the city info */
 
-    #define SYSTEM_DIR	 	    "../data/"
-    #define COUNTRY_DIR     	"../data/country/"      /* Directory for Countries */
+    #define SYSTEM_DIR	 	    "data/"
+    #define COUNTRY_DIR     	"data/country/"      /* Directory for Countries */
 
-    #define QUOTE_DIR		    "../data/quotes/"	/* Dir for quote files*/
-    #define CORPSE_DIR		    "../data/corpses/"	/* where all the corpses save on crash */
+    #define QUOTE_DIR		    "data/quotes/"	/* Dir for quote files*/
+    #define CORPSE_DIR		    "data/corpses/"	/* where all the corpses save on crash */
     #define AREA_LIST       	"../area/area.lst"      /* List of areas*/
 
     #define REMORT_DIR          "../player/remort/"     /* backup dir for remorters */
@@ -2292,44 +2292,44 @@ typedef enum
     #define TEMP_FILE           "../player/romtmp"
     #define LAST_COMMAND	    "../log/lastcomm.txt"
 
-    #define NOTES_FILE       	"../data/notes/notes.dat"	/* For 'notes'*/
-    #define NOTEBOARD_FILE      "../data/notes/noteboards.dat"	/* For 'notes'*/
-    #define NOTEGROUP_FILE	    "../data/notes/groups.dat"		/* For 'notes'*/
+    #define NOTES_FILE       	"data/notes/notes.dat"	/* For 'notes'*/
+    #define NOTEBOARD_FILE      "data/notes/noteboards.dat"	/* For 'notes'*/
+    #define NOTEGROUP_FILE	    "data/notes/groups.dat"		/* For 'notes'*/
 
-    #define LOCATION_FILE	    "../data/locations.txt"
-    #define GATEWAY_FILE		"../data/gateways.txt"
+    #define LOCATION_FILE	    "data/locations.txt"
+    #define GATEWAY_FILE		"data/gateways.txt"
 #else
-    #define WEATHER_FILE	    "/home/laurin/coders/data/weather.dat"
+    #define WEATHER_FILE	    "data/weather.dat"
 
-    #define RESOLVE_FILE        "/home/laurin/coders/data/resolve"
-    #define RACE_FILE		    "/home/laurin/coders/data/races.txt"
-    #define SUBRACE_FILE    	"/home/laurin/coders/data/subraces.txt"
-    #define PORT_FILE    	    "/home/laurin/coders/data/ports.txt"
-    #define VESSEL_FILE    	    "/home/laurin/coders/data/vessels.txt"    
-    #define SKILL_FILE          "/home/laurin/coders/data/skill.txt" 
-    #define WEAVE_FILE          "/home/laurin/coders/data/weave.txt" 
-    #define FORM_FILE           "/home/laurin/coders/data/form.txt"  
-    #define XML_SKILL_FILE	    "/home/laurin/coders/data/skill.xml" 
-    #define XML_WEAVE_FILE 	    "/home/laurin/coders/data/weave.xml" 
-    #define XML_FORM_FILE	    "/home/laurin/coders/data/form.xml"  
+    #define RESOLVE_FILE        "data/resolve"
+    #define RACE_FILE		    "data/races.txt"
+    #define SUBRACE_FILE    	"data/subraces.txt"
+    #define PORT_FILE    	    "data/ports.txt"
+    #define VESSEL_FILE    	    "data/vessels.txt"    
+    #define SKILL_FILE          "data/skill.txt" 
+    #define WEAVE_FILE          "data/weave.txt" 
+    #define FORM_FILE           "data/form.txt"  
+    #define XML_SKILL_FILE	    "data/skill.xml" 
+    #define XML_WEAVE_FILE 	    "data/weave.xml" 
+    #define XML_FORM_FILE	    "data/form.xml"  
     
-    #define MAP_DIR 		    "/home/laurin/coders/data/vmaps/"
+    #define MAP_DIR 		    "data/vmaps/"
 
-    #define COMMAND_FILE    	"/home/laurin/coders/data/commands.txt"
+    #define COMMAND_FILE    	"data/commands.dat"
                                 
-    #define CHEST_DIR       	"/home/laurin/coders/data/chests/"
-    #define GUILD_DIR       	"/home/laurin/coders/data/guild/"        /* Has all the guild info.*/
-    #define VESSEL_DIR       	"/home/laurin/coders/data/vessel/"        /* Has all the guild info.*/
-    #define PORT_DIR       	    "/home/laurin/coders/data/port/"        /* Has all the guild info.*/
+    #define CHEST_DIR       	"data/chests/"
+    #define GUILD_DIR       	"data/guild/"        /* Has all the guild info.*/
+    #define VESSEL_DIR       	"data/vessel/"        /* Has all the guild info.*/
+    #define PORT_DIR       	    "data/port/"        /* Has all the guild info.*/
     
-    #define CLUB_FILE       	"/home/laurin/coders/data/clubs.txt"
+    #define CLUB_FILE       	"data/clubs.txt"
     #define CITY_DIR        	"/home/laurin/coders/city/"              /* Has all the city info */
  
-    #define SYSTEM_DIR      	"/home/laurin/coders/data/"
-    #define COUNTRY_DIR     	"/home/laurin/coders/data/country/"      /* Directory for Countries */
+    #define SYSTEM_DIR      	"data/"
+    #define COUNTRY_DIR     	"data/country/"      /* Directory for Countries */
  
-    #define QUOTE_DIR       	"/home/laurin/coders/data/quotes/"       /* Dir for quote files*/
-    #define CORPSE_DIR      	"/home/laurin/coders/data/corpses/"      /* where all the corpses save on crash */
+    #define QUOTE_DIR       	"data/quotes/"       /* Dir for quote files*/
+    #define CORPSE_DIR      	"data/corpses/"      /* where all the corpses save on crash */
     #define AREA_LIST       	"../area/area.lst"      /* List of areas*/
 
     #define REMORT_DIR          "/home/laurin/coders/palin/mud/player/remort/"     /* backup dir for remorters */
@@ -2340,11 +2340,11 @@ typedef enum
     #define TEMP_FILE           "/home/laurin/coders/palin/mud/player/romtmp"
     #define LAST_COMMAND        "/home/laurin/coders/palin/mud/log/lastcomm.txt"
 
-    #define NOTES_FILE       	"/home/laurin/coders/data/notes/notes.dat"	/* For 'notes'*/
-    #define NOTEBOARD_FILE      "/home/laurin/coders/data/notes/noteboards.dat"	/* For 'notes'*/
-    #define NOTEGROUP_FILE	    "/home/laurin/coders/data/notes/groups.dat"		/* For 'notes'*/
+    #define NOTES_FILE       	"data/notes/notes.dat"	/* For 'notes'*/
+    #define NOTEBOARD_FILE      "data/notes/noteboards.dat"	/* For 'notes'*/
+    #define NOTEGROUP_FILE	    "data/notes/groups.dat"		/* For 'notes'*/
 
-    #define LOCATION_FILE	    "/home/laurin/coders/data/locations.txt"		/* For 'notes'*/
+    #define LOCATION_FILE	    "data/locations.txt"		/* For 'notes'*/
 #endif
 
 #define NULL_FILE           	"/dev/null"             /* To reserve one stream */

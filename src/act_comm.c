@@ -5554,7 +5554,7 @@ extern "C" {
       act("$E is AFK, but your tell will go through when $E returns.", ch, NULL, victim, TO_CHAR);
       sprintf(buf, "%s tells you '`i%s`x'\n\r", PERS(ch, victim), argument);
       buf[0] = UPPER(buf[0]);
-      victim->p cdata->buffer->strcat(buf);
+      victim->pcdata->buffer->strcat(buf);
       // add_buf(victim->pcdata->buffer,buf);
     }
 
@@ -8941,7 +8941,7 @@ extern "C" {
 
   OBJ_DATA *find_phone(CHAR_DATA *ch, int number) {
     OBJ_DATA *phone;
-    if(ch == NULL || number == NULL)
+    if(ch == NULL || number == 0)
     return NULL;
 
     if (is_animal(ch) && get_animal_genus(ch, ANIMAL_ACTIVE) != GENUS_HYBRID && (ch->shape != SHAPE_WOLF || get_skill(ch, SKILL_HYBRIDSHIFTING) < 1))

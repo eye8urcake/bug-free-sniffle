@@ -3011,7 +3011,7 @@ extern "C" {
     }
     if (skill == SKILL_RITUALISM) {
       if (value >= 1) {
-        if ((!is_magicker(ch) && !is_super(ch)) && skill == SKILL_RITUALISM) {
+        if ((!is_mage(ch) && !is_super(ch)) && skill == SKILL_RITUALISM) {
           if (show == TRUE)
           printf_to_char(ch, "You need to be supernatural to learn that.\n\r", ch);
           return FALSE;
@@ -3390,7 +3390,7 @@ extern "C" {
     value = shield_total;
     value++;
     int cost = value * BASE_DISC_COST;
-    if ()
+    // if ()
     return cost;
   }
 
@@ -3435,7 +3435,7 @@ extern "C" {
             int cost = trains * BASE_STAT_COST * stat_cost_mod(ch, method) / 100;
 
             // Apply the multiplier if the player is a boss and not staff
-            if (IS_FLAG(ch->act, PLR_BOSS) && !staff_char(ch))
+            if (IS_FLAG(ch->act, PLR_HOLYLIGHT) && !staff_char(ch))
                 cost *= 10;
 
             return cost;

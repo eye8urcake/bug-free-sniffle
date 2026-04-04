@@ -1126,7 +1126,7 @@ extern "C" {
       obj_from_char_silent(obj);
       obj_to_obj(obj, container);
     }
-    if ((obj = get_eqr_char(ch, WEAR_HOLD_2)) != NULL && !IS_SET(obj->extra_flags, )) {
+    if ((obj = get_eqr_char(ch, WEAR_HOLD_2)) != NULL && !IS_SET(obj->extra_flags, ITEM_RELIC)) {
       obj_from_char_silent(obj);
       obj_to_obj(obj, container);
     }

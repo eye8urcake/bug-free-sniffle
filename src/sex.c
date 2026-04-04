@@ -2487,3 +2487,9 @@ extern "C" {
 #if defined(__cplusplus)
 }
 #endif
+
+_DOFUN(do_sex)
+{
+    send_to_char("The sex command is currently under maintenance.\n", ch);
+    return;
+}

@@ -2217,7 +2217,7 @@ return -1;
       if (direction == -1)
       return -1;
       pexit = orig->exit[direction];
-      distance += sound_resistance(pexit, orig, pexit->u1.to_room);
+      distance += sound_resistance(NULL, pexit, orig, pexit->u1.to_room);
       orig = pexit->u1.to_room;
 
       if (distance > 1000)

@@ -1412,7 +1412,9 @@ ch, to  ), command, arg, argument); act(buf, to, NULL, NULL, TO_CHAR); continue;
       if (!handle) {
         bug("[interp.c::load_commands] Unable to load module.", 0);
         exit(0);
-      }
+        }
+      
+      rewind(fp);
 
       for (;;) {
         char letter;
